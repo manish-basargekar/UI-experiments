@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+*,
+*:before,
+*::after {
+	box-sizing: inherit;
+}
+
+
+:root{
+	--mobile-width:500px;
+	--tablet-width: 1200px
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+
+body {
+	font-family: 'Inter', sans-serif;
+	overflow-x: hidden;
+	background-color: #f6f5f1;
+}
+
+.container{
+    font-size: 2rem;
+}
