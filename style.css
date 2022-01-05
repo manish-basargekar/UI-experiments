@@ -46,7 +46,7 @@ body {
 
 .container {
 	font-size: 2rem;
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	/* margin: 6rem; */
 	height: max-content;
 	z-index: 234;
