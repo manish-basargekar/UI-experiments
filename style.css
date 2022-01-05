@@ -79,6 +79,11 @@ header {
 	z-index: -213;
 }
 
+.gradient2{
+	z-index: -213;
+	position: absolute;
+}
+
 
 main{
 	width: 100%;
@@ -109,12 +114,15 @@ main{
 }
 
 .image {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
 	height: 30rem;
 	background-color: rgb(38, 0, 255);
 }
 
 .info {
 	padding: 1rem;
+	background-color: #f6f5f1;
 }
 
 .info h2 {
