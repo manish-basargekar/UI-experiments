@@ -1,3 +1,21 @@
+@font-face {
+	font-family: PP Machina;
+	font-weight: 400;
+	src: url("/PPNeueMachina-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: PP Montreal;
+	font-weight: medium;
+	src: url("/PPNeueMontreal-Book.otf") format("opentype");
+}
+
+@font-face {
+	font-family: PP Montreal;
+	font-style: italic;
+	src: url("/PPNeueMontreal-Italic.otf") format("opentype");
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,10 +26,9 @@
 	box-sizing: inherit;
 }
 
-
-:root{
-	--mobile-width:500px;
-	--tablet-width: 1200px
+:root {
+	--mobile-width: 500px;
+	--tablet-width: 1200px;
 }
 
 html {
@@ -19,13 +36,93 @@ html {
 	font-size: 62.5%;
 }
 
-
 body {
-	font-family: 'Inter', sans-serif;
+	font-family: "PP Montreal", sans-serif;
 	overflow-x: hidden;
+	background-color: #f6f5f1;
+	color: #18181b;
+}
+
+.container {
+	font-size: 2rem;
+	/* border: 2px solid black; */
+	/* margin: 6rem; */
+	height: max-content;
+	z-index: 234;
+	display: flex;
+}
+
+header {
+	position: fixed;
+	width: 20%;
+	height: 100vh;
+	border-right: 2px solid #52525b;
+	padding: 2rem;
 	background-color: #f6f5f1;
 }
 
-.container{
-    font-size: 2rem;
+.ui-lab {
+	font-size: 8rem;
+	font-family: "PP Machina", monospace;
+	font-weight: 400;
+}
+
+.desc {
+	z-index: 23423;
+}
+
+.gradient {
+	position: absolute;
+	right: 0;
+	top: 0;
+	/* border: 2px solid black; */
+	z-index: -213;
+}
+
+
+main{
+	width: 100%;
+	margin-left: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.ui-container {
+	/* width: 80%; */
+	margin: auto;
+	margin-top: 5rem;
+	min-height: 100vh;
+	/* background-color: crimson; */
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	gap: 2rem;
+}
+
+.project {
+	border: 2px solid #d4d4d8;
+	width: 40rem;
+	border-radius: 4px;
+	height: max-content;
+}
+
+.image {
+	height: 30rem;
+	background-color: rgb(38, 0, 255);
+}
+
+.info {
+	padding: 1rem;
+}
+
+.info h2 {
+	/* font-family: "PP Machina", monospace; */
+	font-weight: 600;
+	font-size: 3rem;
+}
+
+.project-desc {
+	color: #52525b;
 }
