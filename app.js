@@ -1,27 +1,27 @@
 const projectData = [
 	{
 		img: "",
-		heading: "Project heading",
+		heading: "Blinking Eye",
 		desc: "Lorem ipsum, dolor sit amet ctetur sicing elit. Sunt expedita error, iure ea quos libero tempora cupiditate! Inventore suscipit commodi animi omnis quasi ",
 	},
 	{
 		img: "",
-		heading: "Project heading",
+		heading: "Social Icons",
 		desc: "Lorem ipsum, dolor sit amet ctetur sicing elit. Sunt expedita error, iure ea quos libero tempora cupiditate! Inventore suscipit commodi animi omnis quasi ",
 	},
 	{
 		img: "",
-		heading: "Project heading",
+		heading: "CSS button Collection",
 		desc: "Lorem ipsum, dolor sit amet ctetur sicing elit. Sunt expedita error, iure ea quos libero tempora cupiditate! Inventore suscipit commodi animi omnis quasi ",
 	},
 	{
 		img: "",
-		heading: "Project heading",
+		heading: "MNSH block",
 		desc: "Lorem ipsum, dolor sit amet ctetur sicing elit. Sunt expedita error, iure ea quos libero tempora cupiditate! Inventore suscipit commodi animi omnis quasi ",
 	},
 	{
 		img: "",
-		heading: "Project heading",
+		heading: "Text shadow",
 		desc: "Lorem ipsum, dolor sit amet ctetur sicing elit. Sunt expedita error, iure ea quos libero tempora cupiditate! Inventore suscipit commodi animi omnis quasi ",
 	},
 ];
@@ -49,7 +49,7 @@ for (let i = 0; i < projectData.length; i++) {
     
     
     let desc = document.createElement("span")
-    desc.classList.add("desc");
+    desc.classList.add("project-desc");
     desc.innerHTML = projectData[i].desc;
     
     info.appendChild(h2)
