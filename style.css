@@ -76,8 +76,6 @@ header {
 	/* margin-top: 3rem; */
 }
 
-
-
 main {
 	width: 100%;
 	margin-left: 20%;
@@ -121,8 +119,6 @@ main {
 	/* background-color: rgb(148, 148, 148); */
 }
 
-
-
 .info {
 	padding: 1rem;
 	padding-top: 0;
@@ -142,6 +138,13 @@ main {
 .project-desc {
 	margin-top: 2rem;
 	color: #52525b;
+}
+
+.link {
+	text-decoration: none;
+	color: inherit;
+	outline: 0;
+	cursor: pointer;
 }
 
 @media screen and (max-width: 500px) {
@@ -184,8 +187,6 @@ main {
 	.ui-lab {
 		font-size: 8rem;
 	}
-
-
 }
 
 @media screen and (min-width: 500px) and (max-width: 1200px) {
