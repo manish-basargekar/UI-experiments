@@ -1,26 +1,26 @@
 const projectData = [
 	{
-		img: "",
+		img: "./eye.svg",
 		heading: "Blinking Eye",
 		desc: "Lorem ipsum, dolor sit amet ctetur sicing elit. Sunt expedita error, iure ea quos libero tempora cupiditate! Inventore suscipit commodi animi omnis quasi ",
 	},
 	{
-		img: "",
+		img: "./social.svg",
 		heading: "Social Icons",
 		desc: "Lorem ipsum, dolor sit amet ctetur sicing elit. Sunt expedita error, iure ea quos libero tempora cupiditate! Inventore suscipit commodi animi omnis quasi ",
 	},
 	{
-		img: "",
+		img: "./btn.svg",
 		heading: "CSS button Collection",
 		desc: "Lorem ipsum, dolor sit amet ctetur sicing elit. Sunt expedita error, iure ea quos libero tempora cupiditate! Inventore suscipit commodi animi omnis quasi ",
 	},
 	{
-		img: "",
+		img: "./social.svg",
 		heading: "MNSH block",
 		desc: "Lorem ipsum, dolor sit amet ctetur sicing elit. Sunt expedita error, iure ea quos libero tempora cupiditate! Inventore suscipit commodi animi omnis quasi ",
 	},
 	{
-		img: "",
+		img: "./social.svg",
 		heading: "Text shadow",
 		desc: "Lorem ipsum, dolor sit amet ctetur sicing elit. Sunt expedita error, iure ea quos libero tempora cupiditate! Inventore suscipit commodi animi omnis quasi ",
 	},
@@ -34,12 +34,17 @@ const uiContainer = document.querySelector(".ui-container");
 for (let i = 0; i < projectData.length; i++) {
     let project = document.createElement("div")
     project.classList.add("project");
-    let image = document.createElement("div")
-    image.classList.add("image");
 
-
+    // let image = document.createElement("div")
+    // image.classList.add("image");
+	
+	
     let img = document.createElement("img")
-    img.setAttribute("src", `${projectData[i].img}`)
+    // img.setAttribute("src", `${projectData[i].img}`)
+    img.classList.add("image");
+    img.src = `${projectData[i].img}`
+
+	// image.appendChild(img)
     
     let info = document.createElement("div")
     info.classList.add("info");
@@ -55,7 +60,7 @@ for (let i = 0; i < projectData.length; i++) {
     info.appendChild(h2)
     info.appendChild(desc)
 
-    project.appendChild(image)
+    project.appendChild(img)
     project.appendChild(info)
 
 
