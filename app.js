@@ -15,12 +15,12 @@ const projectData = [
 		desc: "Lorem ipsum, dolor sit amet ctetur sicing elit. Sunt expedita error, iure ea quos libero tempora cupiditate! Inventore suscipit commodi animi omnis quasi ",
 	},
 	{
-		img: "./social.svg",
+		img: "./mnsh.svg",
 		heading: "MNSH block",
 		desc: "Lorem ipsum, dolor sit amet ctetur sicing elit. Sunt expedita error, iure ea quos libero tempora cupiditate! Inventore suscipit commodi animi omnis quasi ",
 	},
 	{
-		img: "./social.svg",
+		img: "./shadow.svg",
 		heading: "Text shadow",
 		desc: "Lorem ipsum, dolor sit amet ctetur sicing elit. Sunt expedita error, iure ea quos libero tempora cupiditate! Inventore suscipit commodi animi omnis quasi ",
 	},
